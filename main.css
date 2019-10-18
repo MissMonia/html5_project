@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    background-color: whitesmoke;
+    color: rgb(95, 93, 93);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+#header {
+    background-color: white;
+}
+h1.logo {
+    font-size: 44px;
+    font-weight: 700;
+    color: rgb(167, 231, 231);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    padding-top: 40px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(127, 127, 127, 0.3);
+}
+#topnav {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    min-height: 40px;
+    line-height: 200%;
+}
+.menu > li {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px dashed white;
+    text-shadow: 0.5px 0.5px 0.5px rgba(127, 127, 127, 0.3);
+}
+.menu >li:first-child {
+    border-left: 1px dashed white;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: gray;
+}
+.categories {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    text-align: center;
+    padding:0;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 200px;
+    color: rgb(250, 207, 194);
+    margin-bottom: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.5px 0.5px rgba(127, 127, 127, 0.3);
+}
+.post {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.teaser {
+    width: 285px;
+    height: 375px;
+}
+.post a {
+    opacity: 0.9;
+    color: grey;
+    text-decoration: none;
+}
+.post a:hover {
+    opacity: 1;
+    color: rgb(209, 195, 164);
+}
+figure {
+    margin: 8px;
+    padding: 0px;
+}
+figcaption {
+    margin-top: 8px;
+    padding: 0;
+}
+.entries {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.headerintro {
+    color: rgb(95, 93, 93);
+}
+#fresh {
+    background-color: white;
+}
+#fresh h1 {
+    color: rgb(167, 231, 231);
+    text-shadow: 0.5px 0.5px 0.5px rgba(127, 127, 127, 0.3);
+}
+.entry {
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: justify;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+.entryimg {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 140px;
+}
+.entryimg img {
+    width: 120px;
+    height: 120px;
+}
+.entrytxt {
+    display: inline-block;
+    width: 730px;
+    color: rgb(95, 93, 93);
+    font-size: 15px;
+}
+h2 {
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgb(114, 111, 111);
+}
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    width: 950px;
+    text-align: center;
+    padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+.contact p {
+    margin-bottom: 50px;
+}
+#contact {
+    color: rgb(167, 231, 231);
+    text-shadow: 0.5px 0.5px 0.5px rgba(127, 127, 127, 0.3);
+}
+.button {
+    background-color:  blanchedalmond;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 19px;
+    border-radius: 5px;
+    min-width: 300px;
+    text-shadow: 0.5px 0.5px 0.5px rgba(127, 127, 127, 0.3); 
+}
+.button:hover {
+    background-color: rgb(250, 207, 194);
+}
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color:  blanchedalmond;
+}
+
+.socialdivs
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.fb
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.fb:hover
+{
+	background-color: rgb(250, 207, 194);
+}
+
+.yt
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.yt:hover
+{
+	background-color: rgb(250, 207, 194);
+}
+
+.tw
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.tw:hover
+{
+	background-color: rgb(250, 207, 194);
+}
+
+.gplus
+{
+	width: 250px;
+	height: 155px;
+	float:left;
+}
+
+.gplus:hover
+{
+	background-color: rgb(250, 207, 194);
+}
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding:20px;
+}
+.copy p {
+    color: gb(95, 93, 93);
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+.west {
+    float: left;
+    width: 750px;
+    padding: 20px;
+    text-align: justify;
+}
+.east {
+    float: left;
+    width: 170px;
+    padding: 20px;
+}
+.west h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: rgb(250, 207, 194);
+    margin-bottom: 20px;
+}
+.westimg {
+    width: 750px;
+    height: auto;
+}
+.east ul {
+    padding-left: 20px;
+}
+.est ul > li {
+    margin-bottom: 5px;
+}
+.east h2 {
+    color: rgb(167, 231, 231);
+}
+#adv {
+    width: 160px;
+    height: auto;
+    margin-top: 15px;
+}
+.userimg {
+    width: 60px;
+    height: 60px;
+}
